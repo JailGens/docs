@@ -73,7 +73,7 @@ val mirror = Mirror.builder()
 ```groovy
 def mirror = Mirror.builder()
         .classLoader(Test.class.classLoader)
-        .build();
+        .build()
 ```
 {% endtab %}
 {% endtabs %}
