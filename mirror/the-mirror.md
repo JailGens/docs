@@ -78,5 +78,4 @@ def mirror = Mirror.builder()
 {% endtab %}
 {% endtabs %}
 
-See [here](https://repo.sparky983.me/javadoc/releases/net/jailgens/mirror/0.4.0) for more details.
-
+See [here](https://repo.jailgens.net/javadoc/releases/net/jailgens/mirror/0.4.0) for more details.
