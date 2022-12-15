@@ -5,7 +5,7 @@ description: Get started with Enchanted
 # Getting Started
 
 {% hint style="danger" %}
-This version is unstable. Anything may change at any time.
+This version is unstable. Anything may change.
 {% endhint %}
 
 ## About
