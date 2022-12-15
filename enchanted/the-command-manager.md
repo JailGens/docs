@@ -22,7 +22,7 @@ val commandManager = PaperCommandManager.create()
 
 ## Command Registration
 
-You can register a command by calling [`CommandManager.registerCommand(Object)`](https://github.com/JailGens/enchanted/blob/main/enchanted-api/src/main/java/net/jailgens/enchanted/CommandManager.java#L32). The `Object` argument is an object annotated with [`@net.jailgens.enchanted.annotations.Command`](https://github.com/JailGens/enchanted/blob/main/enchanted-api/src/main/java/net/jailgens/enchanted/annotations/Command.java).&#x20;
+You can register a command by calling [`CommandManager.registerCommand(Object)`](https://github.com/JailGens/enchanted/blob/main/enchanted-api/src/main/java/net/jailgens/enchanted/CommandManager.java#L32). The `Object` argument is an object annotated with [`@Command`](https://github.com/JailGens/enchanted/blob/main/enchanted-api/src/main/java/net/jailgens/enchanted/annotations/Command.java).&#x20;
 
 {% tabs %}
 {% tab title="Java" %}

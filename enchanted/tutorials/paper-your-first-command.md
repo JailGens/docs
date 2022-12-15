@@ -13,7 +13,7 @@ description: >-
 
 ## Creating the Command
 
-Every command must be annotated with [`@net.jailgens.enchanted.annotations.Command`](https://github.com/JailGens/enchanted/blob/main/enchanted-api/src/main/java/net/jailgens/enchanted/annotations/Command.java). If you get an error, make sure you didn't accidentally use `net.jailgens.enchanted.Command`.&#x20;
+Every command must be annotated with [`@Command`](https://github.com/JailGens/enchanted/blob/main/enchanted-api/src/main/java/net/jailgens/enchanted/annotations/Command.java). If you get an error, double check that you didn't accidentally use `net.jailgens.enchanted.Command`.&#x20;
 
 {% tabs %}
 {% tab title="Java" %}

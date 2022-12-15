@@ -1,6 +1,6 @@
 # Commands
 
-Commands can be declared using the [`@net.jailgens.enchanted.annotations.Command`](https://github.com/JailGens/enchanted/blob/main/enchanted-api/src/main/java/net/jailgens/enchanted/annotations/Command.java) annotation on a class:
+Commands can be declared using the [`@Command`](https://github.com/JailGens/enchanted/blob/main/enchanted-api/src/main/java/net/jailgens/enchanted/annotations/Command.java) annotation on a class:
 
 {% tabs %}
 {% tab title="Java" %}
@@ -20,7 +20,7 @@ class Foo
 
 ## Subcommands
 
-You can add a subcommand to a command by annotating a public method with [`@net.jailgens.enchanted.annotations.Command`](https://github.com/JailGens/enchanted/blob/main/enchanted-api/src/main/java/net/jailgens/enchanted/annotations/Command.java). The annotated method will be invoked whenever the specified subcommand is executed.
+You can add a subcommand to a command by annotating a public method with [`@Command`](https://github.com/JailGens/enchanted/blob/main/enchanted-api/src/main/java/net/jailgens/enchanted/annotations/Command.java). The annotated method will be invoked whenever the specified subcommand is executed.
 
 {% tabs %}
 {% tab title="Java" %}
