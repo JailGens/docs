@@ -1,5 +1,5 @@
 ---
-description: An introduction to the command manager.
+description: An introduction to the command manager
 ---
 
 # The Command Manager
