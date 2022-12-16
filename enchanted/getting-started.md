@@ -20,6 +20,7 @@ Add the following to your build file:
 {% tab title="Gradle (Kotlin DSL)" %}
 ```kts
 repositories {
+    maven("https://repo.jailgens.net/releases") // for transitive dependencies
     maven("https://repo.jailgens.net/snapshots")
 }
 
@@ -32,6 +33,10 @@ dependencies {
 {% tab title="Gradle (Groovy DSL)" %}
 ```groovy
 repositories {
+    maven {
+        url 'https://repo.jailgens.net/releases' // for transitive dependency
+    }
+    
     maven {
         url 'https://repo.jailgens.net/snapshots'
     }
