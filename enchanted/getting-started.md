@@ -20,12 +20,11 @@ Add the following to your build file:
 {% tab title="Gradle (Kotlin DSL)" %}
 ```kts
 repositories {
-    maven("https://repo.jailgens.net/releases") // for transitive dependencies
-    maven("https://repo.jailgens.net/snapshots")
+    maven("https://repo.jailgens.net/releases")
 }
 
 dependencies {
-    implementation("net.jailgens:enchanted-paper:0.1.0-SNAPSHOT")
+    implementation("net.jailgens:enchanted-paper:0.1.0")
 }
 ```
 {% endtab %}
@@ -34,16 +33,12 @@ dependencies {
 ```groovy
 repositories {
     maven {
-        url 'https://repo.jailgens.net/releases' // for transitive dependency
-    }
-    
-    maven {
-        url 'https://repo.jailgens.net/snapshots'
+        url 'https://repo.jailgens.net/releases'
     }
 }
 
 dependencies {
-    implementation 'net.jailgens:enchanted-paper:0.1.0-SNAPSHOT'
+    implementation 'net.jailgens:enchanted-paper:0.1.0'
 }
 ```
 {% endtab %}
