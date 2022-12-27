@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-    implementation("net.jailgens:enchanted-paper:0.1.0")
+    implementation("net.jailgens:enchanted-paper:0.1.1")
 }
 ```
 {% endtab %}
@@ -38,7 +38,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'net.jailgens:enchanted-paper:0.1.0'
+    implementation 'net.jailgens:enchanted-paper:0.1.1'
 }
 ```
 {% endtab %}
