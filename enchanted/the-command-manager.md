@@ -9,13 +9,13 @@ The [`CommandManager`](https://github.com/JailGens/enchanted/blob/main/enchanted
 {% tabs %}
 {% tab title="Java" %}
 ```java
-PaperCommandManager commandManager = PaperCommandManager.create()
+PaperCommandManager commandManager = PaperCommandManager.create(plugin)
 ```
 {% endtab %}
 
 {% tab title="Kotlin" %}
 ```kotlin
-val commandManager = PaperCommandManager.create()
+val commandManager = PaperCommandManager.create(plugin)
 ```
 {% endtab %}
 {% endtabs %}
